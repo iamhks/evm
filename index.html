@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <head>
+         <title>EVM by HKS</title>
+      </head>
+      <center>
+	      <h1>Case Tools Lab Assignment dated 03.09.2020</h1>
+	      <h2>-Hemant Kumar Singh (Roll no. 187220)</h2> 
+     <p>Add the following details for earned value management analysis:</p>
+      <form oninput="SV.value=bcwp.value-bcws.value; CV.value=bcwp.value-acwp.value; CPI.value=bcwp.value/acwp.value; SPI.value=bcwp.value/bcws.value;">
+         Budgeted Cost of Work Scheduled(BCWS): <input type="number" min="1" name="bcws">
+         <br>
+         Actual Cost of Work Scheduled(ACWS): <input type="number" min="1" name="acws">
+         <br>
+         Budgeted Cost of Work Performed(BCWP): <input type="number" min="1" name="bcwp">
+	 <br>
+	 Actual Cost of Work Performed(ACWP): <input type="number" min="1" name="acwp">
+      	 <br>
+      	 <br>
+      	 <h3>Results:<br></h3>
+	 <b>Scheduled Variance:<output name="SV"></output></b><br>
+	 <i> If SV is less than zero: Project behind Schedule. If SV greater than zero: Project ahead of Schedule. If SV=0 Project on Schedule. </i><br>
+	 <br><b>Cost Variance:<output name="CV"></output></b><br>
+      	 <i> If CV is less than zero: Project Overrun. If CV greater than zero: Project Underrun. If CV=0 Project as per estimate.</i><br>
+      	 <br><b>Cost Performance Index:<output name="CPI"></output></b><br>
+      	 <i> If CPI is less than 1: Project Overrun. If CPI is greater than 1: Project Underrun. If CPI=1 Project as per estimate.</i><br>
+      	 <br><b>Scheduled Performance Index:<output name="SPI"></output></b><br>
+      	 <i> If SPI is less than 1: Project behind Schedule. If SPI is greater than 1: Project ahead of Schedule. If SPI=1 Project on time.</i><br>
+      </form>
+    </center>
+   </body>
+</html>
